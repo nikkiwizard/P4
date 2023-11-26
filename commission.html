@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <title>Commission Me</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -68,11 +68,14 @@
                         <input type="email" class="form-control" id="email"
                                placeholder="Enter email" name="email">
                     </div>
-                    <div class="form-group form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input"
-                                   type="checkbox" name="subscribe"> Subscribe
-                        </label>
+                    <div class="form-group">
+                        <label for="budget">Budget:</label>
+                        <input type="number" class="form-control" id="budget"
+                               placeholder="Enter a monetary amount" name="budget">
+                    </div>
+                    <div class="form-group">
+                        <label for="commission-request">Tell me more about your request!:</label><br>
+                        <textarea id="commission-request" name="commission-request" rows="4" cols="50" placeholder="Please use this space to tell me specific details. What size are you looking for, what materials, etc..."></textarea>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
