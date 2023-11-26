@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Niko's Buttons</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
@@ -12,6 +13,7 @@
 
 </head>
 <body>
+<main>
 <div class="container-fluid">
     <div class="row">
             <nav class="navbar navbar-expand-md
@@ -50,7 +52,7 @@
                     </ul>
                 </div>
             </nav>
-        <div class="row">
+        <!--<div class="row">
         <p class="col-1">Col 1</p>
         <p class="col-1">Col 2</p>
         <p class="col-1">Col 3</p>
@@ -67,17 +69,85 @@
     <div class="col-sm-4  text-center">
         <h2>h2 Bootstrap heading (24px)</h2>
         <h3>h2 Bootstrap heading (18px)</h3>
+    </div> -->
     </div>
-</div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
+
+    </div>
+    <!-- Carousel Thank you W3 Schools-->
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/stock_photos/stock_pic_1.jpg" alt="collection of yarn and supplies on a pink background" class="d-block" style="width:100%">
+                <!--<div class="carousel-caption">
+                    <h3>Welcome</h3>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <img src="images/stock_photos/stock_pic_2.jpg" alt="someone crocheting surrounded by yarn" class="d-block" style="width:100%">
+                <!--<div class="carousel-caption">
+                    <h3>Welcome</h3>
+                </div>-->
+            </div>
+            <div class="carousel-item">
+                <img src="images/stock_photos/stock_pic_3.jpg" alt="someone knitting with yellow yarn" class="d-block" style="width:100%">
+                <!--<div class="carousel-caption">
+                    <h3>Welcome</h3>
+                </div>-->
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <div class="col-sm-12  text-center">
+        <h2>Welcome To Niko's Buttons Website</h2>
+        <h3>Enjoy your stay!</h3>
+    </div>
+
+    <div class="card-group">
+            <div class="card" >
+                <div class="card-header"> About the Artist </div>
+                <div class="card-body"> On this page, you can learn more about me and my journey.</div>
+                <div class="card-body"> <a href="about.html" class="btn btn-primary">Go Now</a> </div>
+            </div>
+
+            <div class="card" >
+                <div class="card-header"> Gallery </div>
+                <div class="card-body"> On this page, you can see a collection of my work </div>
+                <div class="card-body"> <a href="gallery.html" class="btn btn-primary">Go Now</a> </div>
+            </div>
+
+            <div class="card" >
+                <div class="card-header"> Commission Me </div>
+                <div class="card-body"> See something you like? Want it for yourself? Commission me to make it for you!</div>
+                <div class="card-body"> <a href="commission.html" class="btn btn-primary">Go Now</a> </div>
+            </div>
+    </div>
+
+
+</main>
+<footer class="footer page-footer font-small ">
+    <div class="container">
         <div class="row">
             <span class="text-muted">&copy; Nicole Campos, 2023 |  Terms Of Use  |  Privacy Statement</span>
         </div>
-     </div>
-  </footer>
-</div>
-
+    </div>
+</footer>
 
     <!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
