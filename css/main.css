@@ -1,5 +1,7 @@
 .card {
     width: fit-content;
+    float: left;
+    padding: 10px;
 }
 
 div {
