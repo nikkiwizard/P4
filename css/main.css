@@ -5,9 +5,7 @@
     font-family: "Lucida Handwriting", cursive;
 }
 
-#navnav{
-    background-color: #2e1832;
-}
+
 
 #collapsibleNavbar {
     background-color: #2e1832;
@@ -65,5 +63,9 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     float: left
+}
+
+#formform {
+    background-color: plum;
 }
 
