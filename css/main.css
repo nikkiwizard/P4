@@ -1,3 +1,27 @@
+/*DEVELOPER: Nicole Campos, IS117-003, Fall 2023 */
+
+
+.navbar-brand {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+#navnav{
+    background-color: #2e1832;
+}
+
+nav div ul li a{
+    color: white;
+}
+
+
+#collapsibleNavbar {
+    background-color: #2e1832;
+}
+
+a:hover, a:focus {
+    color: white;
+}
+
 .card {
     width: fit-content;
     float: left;
@@ -10,6 +34,7 @@ div {
 
 body {
     padding-bottom: 55px;
+    background-color: plum;
 }
 
 .footer {
@@ -18,15 +43,15 @@ body {
     bottom: 0;
     width: 100%;
     height: 55px;
-    background-color: aliceblue;
     color: white;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
+    background-color: #2e1832;
 }
 
 .carousel-inner img {
-    height: 300px;
+    height: 500px;
 }
 
 #me {
