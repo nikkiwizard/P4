@@ -9,17 +9,17 @@
     background-color: #2e1832;
 }
 
-nav div ul li a{
-    color: white;
-}
-
-
 #collapsibleNavbar {
     background-color: #2e1832;
 }
 
+.nav-link{
+    color: white !important;
+}
+
 a:hover, a:focus {
-    color: white;
+    background-color: lavender;
+    color: black !important;
 }
 
 .card {
@@ -43,11 +43,15 @@ body {
     bottom: 0;
     width: 100%;
     height: 55px;
-    color: white;
+    color: white !important;
     text-align: center;
     padding: 10px;
     font-size: 0.5rem;
     background-color: #2e1832;
+}
+
+.footer span {
+    color: antiquewhite !important;
 }
 
 .carousel-inner img {
